@@ -20,7 +20,7 @@ function App() {
   }
   return (
     <div className="todo-app container">
-      <h1 className="center blue-text"> Todo's</h1>
+      <h1 className="center blue-text text-accent-2"> Todo-List</h1>
       <Todos todos={todos} deleteTodo={deleteTodo}/>
       <AddToDo addTodo={addTodo}/>
     </div>
