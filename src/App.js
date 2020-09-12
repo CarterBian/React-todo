@@ -17,7 +17,6 @@ function App() {
     todo.id = Math.random();
     const todos1 = [...todos, todo];
     setTodos(todos1);
-    console.log(todos1);
   }
   return (
     <div className="todo-app container">
