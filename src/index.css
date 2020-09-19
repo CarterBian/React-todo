@@ -19,3 +19,7 @@ code {
 .btn-small{
   margin-top: -5px;
 }
+
+.collection-item:hover{
+  cursor: pointer;
+}
