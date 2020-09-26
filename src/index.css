@@ -22,4 +22,5 @@ code {
 
 .collection-item:hover{
   cursor: pointer;
+  text-decoration: line;
 }

@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Todos from './Todos';
 import AddToDo from './AddToDo';
+import {v4} from 'uuid';
 
 function App() {
   const [todos, setTodos] = useState([
@@ -14,7 +15,7 @@ function App() {
     setTodos(todosfilter);
   }
   const addTodo = (todo) =>{
-    todo.id = Math.random();
+    todo.id = v4();
     const todos1 = [...todos, todo];
     setTodos(todos1);
   }
